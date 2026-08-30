@@ -79,15 +79,40 @@ select {
     justify-content: space-between;
 }
 
-.logo {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 32px;
-    letter-spacing: 2px;
+/* ================= BRAND ================= */
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
 }
 
-.logo span {
+.brand .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.official-website {
+    margin-top: 6px;
     color: var(--yellow);
-    margin-left: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0.9;
+}
+
+.official-website:hover {
+    color: var(--yellow-light);
+    opacity: 1;
 }
 
 .navbar {
