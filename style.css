@@ -1077,9 +1077,15 @@ select {
         top: 70px;
     }
 
-    .logo {
-        font-size: 28px;
-    }
+   .brand .logo {
+    font-size: 25px;
+}
+
+.official-website {
+    font-size: 8px;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
 
     .hero {
         min-height: 780px;
